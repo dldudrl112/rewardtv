@@ -204,13 +204,11 @@ include $_SERVER["DOCUMENT_ROOT"] . "/application/views/header.php";
 						<div class="video-wrap">
 							<!-- <div class="player<?= $row->product_idx ?>"></div> -->
 							
-							<iframe width="100%" height="auto" src="<?= $row->product_thumvideo2 ?>?controls=0&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							<iframe width="100%" height="auto" src="<?= $row->product_thumvideo2 ?>"  frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 							<div class="image-wrap">
 								<img src="/assets/uploads/<?= $row->product_img ?>" onerror="this.style.display='none';">
 							</div>
 						</div>
-
-
 
 						<div id="list" class="product_button">
 							<button id="header<?= $i ?>" class="product_number circle" onclick="location.href='<?= $row->product_numget ?><?= $row->product_idx2 ?>'">
@@ -220,7 +218,6 @@ include $_SERVER["DOCUMENT_ROOT"] . "/application/views/header.php";
 							</button>
 							<!-- <input type="button" value="Disable me" disabled> -->
 						</div>
-
 					</div>
 				</div>
 				<!-- <script language="JavaScript">
@@ -273,6 +270,7 @@ include $_SERVER["DOCUMENT_ROOT"] . "/application/views/header.php";
 								//만약 유튜브 공유 주소가 https://www.youtube.com/watch?v=peUFe-cwHI4 라면 v=뒤 값을 넣으면 됩니다.
 								playerVars: {
 									'modestbranding': 1,
+
 								},
 								events: {
 									onReady: onPlayerReady,

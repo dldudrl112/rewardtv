@@ -389,6 +389,20 @@
                             <?= nl2br($data->insure_text2) ?>
                         </p>
                     </div>
+                    <div class="box">
+                        <div class="btn">
+                            <p>15초 영상 시청</p>
+                        </div>
+                        <div class="btn">
+                            <p>전화상담 예약하기<span>(30초)</span></p>
+                        </div>
+                        <div class="btn">
+                            <p>리워드 받기</p>
+                        </div>
+                    </div>
+                    <div class="text">
+                        <p>*리워드TV는 고객님의 어떠한 정보도 수집 및 보관하지 않습니다.</p>
+                    </div>
                     <div class="line_1"></div>
                 </div>
                 <div class="row">
