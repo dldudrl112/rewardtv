@@ -42,7 +42,7 @@ class loginmodel extends CI_Model {
         }
         else{
             $datr = $this->db->get_where("member",array($column=>$_POST['id']))->row();
-            if($datr->member_email){
+            if($datr->member_e mail){
                 return array('result'=>false);
             }else{
                 return array('result'=>true,'idx'=>$datr->member_idx);

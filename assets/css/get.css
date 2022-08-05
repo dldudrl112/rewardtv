@@ -159,7 +159,7 @@
 		#call_main .call_area .thumb { position: static; left: 0; }
 		#get_product .video_z { z-index: 1020; width: 100%;position: sticky; margin: 0px;} 
 		#get_product .product_contents .text p {font-size: 12px;}
-		#get_product .product_contents .box { padding: 0 10px; flex-direction: column; }
+		#get_product .product_contents .box { padding: 0 10px; flex-direction: column; display: none; }
 		#get_product .product_contents .box .btn {margin: 5px 10px;}
 		#get_product .product_contents .box .btn p {font-size: 14px;}
 }
