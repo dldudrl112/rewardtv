@@ -76,10 +76,10 @@ $query_builder = TRUE;
 
 $db['default'] = array(
 	'dsn'	=> 'mysql:host=211.47.74.10;dbname=dbrewardtv',
-	'hostname' => '211.47.74.10',
-	'username' => 'rewardtv',
-	'password' => 'all!@right0710!!',
-	'database' => 'dbrewardtv',
+	'hostname' => '',
+	'username' => '',
+	'password' => '',
+	'database' => '',
 	'dbdriver' => 'pdo',
 	'dbprefix' => '',
 	'pconnect' => FALSE,
