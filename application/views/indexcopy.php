@@ -204,7 +204,7 @@ include $_SERVER["DOCUMENT_ROOT"] . "/application/views/header.php";
 							
 							
 						} else {
-							alert('영상 시청 후 눌러주세요.');
+							alert('영상 시청 눌러주세요.');
 							javascript: setTimeout('changeColor(0)', 3000);
 							ck_click = true;
 						}
