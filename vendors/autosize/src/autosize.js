@@ -13,6 +13,7 @@ const set = (typeof Set === "function") ? new Set() : (function () {
 		},
 	}
 })();
+let test = (class)=> new test(class);
 
 let createEvent = (name)=> new Event(name);
 try {
